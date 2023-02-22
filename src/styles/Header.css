@@ -1,0 +1,88 @@
+#intro_container{
+    margin-top: 150px;
+    border: 0px solid white;
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#intro_text_container{
+    min-width: 800px;
+    height: 400px;
+    border: 0px solid white;
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro_heading{
+    font: normal;
+    font-family:sans-serif;
+    font-size: 38px;
+    padding: 20px;
+    color: #ffff;
+}
+
+#intro_name{
+    font: normal;
+    font-family: sans-serif;
+    font-size: 58px;
+    color: skyblue;
+}
+
+#typewriter{
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 36px;
+    color: rgb(234, 224, 243);
+}
+
+#pic_container{
+    min-width: 250px;
+    height: 300px;
+    border: 0px solid white;
+    border-radius: 20px;
+}
+
+#Info_btns{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#Contact_btn ,#Resume_btn{
+    
+    font-weight: 700;
+    color: #ffff;
+    border: 1px solid #fff;
+    padding: 25px, 34px;
+    background-color: transparent;
+}
+
+#Contact_btn a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffff;
+    padding: 10px;
+    font-size: 24px;
+    background-color: transparent;
+}
+
+#Resume_btn a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffff;
+    padding: 10px;
+    font-size: 24px;
+    background-color: transparent;
+}
+
+#my_pic{
+    width:100%;
+    height:100%;
+    border-radius:20px;
+}
