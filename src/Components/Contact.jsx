@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "../styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div style={{width:"100%",height:"300px", border:"1px solid white"}}>
-      <h2 style={{color:"white"}}>This Contact page</h2>
+    <div id='Contact' className="nav-link contact">
+      <p id='Contact_heading'>Let's Connect</p>
+
+      <div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   )
 }

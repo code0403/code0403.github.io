@@ -7,6 +7,7 @@ import { Skillls } from './Components/Skillls';
 import { Projects } from './Components/Projects';
 import { Contact } from './Components/Contact';
 import { Header } from './Components/Header';
+import { GitStatus } from './Components/GitStatus';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <AboutMe />
         <Skillls />
         <Projects />
+        <GitStatus />
         <Contact />
     </div>
   );
