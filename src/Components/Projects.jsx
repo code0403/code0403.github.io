@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "../styles/Project.css"
 
 const Projects = () => {
   return (
-    <div style={{width:"100%",height:"300px", border:"1px solid white"}}>
+    <div id='projects' className='nav-link projects'>
     <h2 style={{color:"white"}}>This Project section</h2>
   </div>
   )

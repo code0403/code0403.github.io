@@ -3,6 +3,8 @@ import pic from "../assets/images/pic.jpg";
 import "../styles/Header.css";
 import Typewriter from "typewriter-effect";
 // import Particles from "react-tsparticles";
+import { FiDownload }  from 'react-icons/fi';
+import { IoCallOutline } from 'react-icons/io5';
 
 const Header = () => {
   return (
@@ -19,8 +21,8 @@ const Header = () => {
             </p>
              
              <div id="Info_btns">
-              <button id="Contact_btn"><a href="#contact">Contact</a></button>
-              <button id="Resume_btn"><a href="https://drive.google.com/file/d/1sDOnlaTapJ8dZyh2Y5-l54sGB52u1pHG/view?usp=share_link" targert= {"_blank"} download> Resume </a></button>
+              <button id="Contact_btn"><a href="#contact">Contact <IoCallOutline /> </a></button>
+              <button id="Resume_btn"><a href="https://drive.google.com/file/d/1sDOnlaTapJ8dZyh2Y5-l54sGB52u1pHG/view?usp=share_link" targert= {"_blank"} download> Resume <FiDownload /> </a></button>
              </div>
             
         </div>

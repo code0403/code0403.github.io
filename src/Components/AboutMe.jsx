@@ -1,5 +1,8 @@
 import React from 'react'
-import "../styles/AboutMe.css"
+import "../styles/AboutMe.css";
+import { FiDownload }  from 'react-icons/fi';
+import { FaGithub } from 'react-icons/fa';
+
 
 const AboutMe = () => {
   return (
@@ -10,8 +13,8 @@ const AboutMe = () => {
       </section>
 
       <div id='About_links'>
-      <button id="Github_btn"><a href="https://github.com/code0403" target={"_blank"} rel="noreferrer">GitHub</a></button>
-      <button id="Resume_btn"><a href="https://drive.google.com/file/d/1sDOnlaTapJ8dZyh2Y5-l54sGB52u1pHG/view?usp=share_link" target={"_blank"} rel="noreferrer" download> Resume </a></button>
+      <button id="Github_btn"><a href="https://github.com/code0403" target={"_blank"} rel="noreferrer"> GitHub <FaGithub /> </a></button>
+      <button id="Resume_btn"><a href="https://drive.google.com/file/d/1sDOnlaTapJ8dZyh2Y5-l54sGB52u1pHG/view?usp=share_link" target={"_blank"} rel="noreferrer" download> Resume <FiDownload /> </a></button>
       </div>
     </div>
   )

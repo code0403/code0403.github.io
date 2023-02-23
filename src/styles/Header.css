@@ -61,6 +61,9 @@
     border: 1px solid #fff;
     padding: 25px, 34px;
     background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #Contact_btn a{
