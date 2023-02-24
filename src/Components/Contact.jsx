@@ -1,16 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "../styles/Contact.css";
 import { IoCallOutline } from "react-icons/io5";
 import { BsLinkedin } from "react-icons/bs";
 import { VscGithub } from "react-icons/vsc";
 import { MdEmail } from "react-icons/md";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+ 
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div id='Contact' className="nav-link contact">
       <p id='Contact_heading'>Let's Connect</p>
 
-      <div id='contact_container'>
+      <div id='contact_container' data-aos="fade-left"  data-aos-duration="3000" data-aos-delay="700"  data-aos-easing="linear">
+    
         <div id='contact_socials_container'>
           <p id='contact_socials_container_heading'>Contact Me</p>
           <div id='socials'>
@@ -20,7 +28,7 @@ const Contact = () => {
           <p className='social_text'><MdEmail /> <span> sabhishek900@gmail.com</span></p>
           </div>
         </div>
-        <div id='contact_message_conatiner'>
+        <div id='contact_message_conatiner' data-aos="fade-right"  data-aos-duration="3000" data-aos-delay="700"  data-aos-easing="linear">
           <p id='contact_message_conatiner_heading'>Message Me</p>
           <div id='message_text_container'>
             <input type="text"  name="" placeholder='Name'  className='message_text' required />
