@@ -18,7 +18,7 @@
     color: skyblue;
 }
 
-#description{
+#user-detail-intro{
     font-style: normal;
     font-family: 'sans-serif', Tahoma, Verdana;
     font-size: 20px;
@@ -37,7 +37,7 @@
     padding: 50px;
 }
 
-#Github_btn, #Resume_btn{
+#Github_btn, #resume-button-2{
     font-weight: 500;
     color: #ffff;
     border: 1px solid #fff;
@@ -57,7 +57,7 @@
     background-color: transparent;
 }
 
-#Resume_btn a{
+#resume-button-2 a{
     text-decoration: none;
     font-weight: 500;
     color: #ffff;

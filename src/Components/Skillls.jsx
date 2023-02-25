@@ -29,10 +29,10 @@ const Skillls = () => {
   }, [])
 
   return (
-    <div id="skills">
+    <div id="skills" className='nav-link skills'>
       <h2 id='skills_heading'> Skills </h2>
 
-      <div id="skills_container" data-aos="fade-up" data-aos-delay="700" data-aos-easing="ease-in-sine" data-aos-once="false">
+      <div id="skills_container" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-sine" >
         <div className='Skill_item'>   <FaHtml5 className="skills-card-img" /> <p className="skills-card-name">HTML5</p> </div>
         <div className='Skill_item'> <FaCss3Alt className="skills-card-img" /> <p className="skills-card-name">CSS3</p> </div>
         <div className='Skill_item'> <SiJavascript className="skills-card-img" /><p className="skills-card-name">JavaScript</p> </div>

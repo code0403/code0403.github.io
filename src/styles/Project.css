@@ -1,7 +1,143 @@
 #projects{
-    width:100%;
-    height:1000px;
+    /* width:100%; */
+    /* height:2000px; */
     border:1px solid white;
     margin-top: 50px;
     background-color: rgb(32, 31, 31);
+    padding: 50px;
+}
+
+#project_heading{
+    font: normal;
+    font-family: sans-serif;
+    font-size: 38px;
+    color: skyblue; 
+}
+
+#project_1, #project_2, #project_3, #project_4 {
+    min-width:90%;
+    /* height:300px; */
+    border:1px solid #ffff;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.project_image{
+   width: 35%;
+   height: 90%;
+   border:0px solid #ffff;
+}
+
+
+
+.project_pic{
+    width:100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.project_pic:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border:1px solid #ffff;
+    border-radius: 20px;
+    transition: ease-in-out 2s;
+}
+
+.project_info{
+    width: 55%;
+    border:0px solid #ffff;
+    text-align: left;
+    
+}
+
+.project-title{
+    font-style: normal;
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-align: justify; 
+}
+
+.project-title:hover{
+    color: rgb(252, 36, 36);
+    transition: 0.8s;
+}
+
+.project-description{
+    font-style: normal;
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.project-tech-stack{
+    font-style: normal;
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.techs{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.techs:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    padding: 8px;
+    border: none;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.project-features{
+    font-style: normal;
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.project-github-link{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.project-github-link:hover{
+    color: #fff;
+    background-color: #121212;
+}
+
+.project-deployed-link{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.project-deployed-link:hover{
+    color: #fff;
+    background-color: #121212; 
 }

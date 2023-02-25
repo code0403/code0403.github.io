@@ -14,7 +14,7 @@ const Contact = () => {
   }, [])
 
   return (
-    <div id='Contact' className="nav-link contact">
+    <div id='contact' className="nav-link contact">
       <p id='Contact_heading'>Let's Connect</p>
 
       <div id='contact_container' data-aos="fade-left"  data-aos-duration="3000" data-aos-delay="700"  data-aos-easing="linear">
@@ -22,10 +22,10 @@ const Contact = () => {
         <div id='contact_socials_container'>
           <p id='contact_socials_container_heading'>Contact Me</p>
           <div id='socials'>
-          <a href="https://github.com/code0403" target={"_blank"} rel="noreferrer"><p className='social_text'><VscGithub /> <span> GitHub</span></p></a>
-          <a href="https://www.linkedin.com/in/abhishek-singh04/" target={"_blank"} rel="noreferrer"><p className='social_text'><BsLinkedin /> <span> Linkedin</span></p></a>
-          <p className='social_text'><IoCallOutline /> <span> +91 9897673739</span></p>
-          <p className='social_text'><MdEmail /> <span> sabhishek900@gmail.com</span></p>
+          <a  href="https://github.com/code0403" target={"_blank"} rel="noreferrer"><p className='social_text'><VscGithub /> <span> GitHub</span></p></a>
+          <a  href="https://www.linkedin.com/in/abhishek-singh04/" target={"_blank"} rel="noreferrer"><p  className='social_text'><BsLinkedin /> <span> Linkedin</span></p></a>
+          <p  id="contact-phone" className='social_text'><IoCallOutline /> <span> +91 9897673739</span></p>
+          <p id="contact-email" className='social_text'><MdEmail /> <span> sabhishek900@gmail.com</span></p>
           </div>
         </div>
         <div id='contact_message_conatiner' data-aos="fade-right"  data-aos-duration="3000" data-aos-delay="700"  data-aos-easing="linear">

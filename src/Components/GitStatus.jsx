@@ -19,6 +19,7 @@ const GitStatus = () => {
             <img className='github_status' src="https://github-readme-streak-stats.herokuapp.com?user=code0403&theme=tokyonight&border_radius=5&type=png&hide_border=true&card_width=600" alt="" />
         </div>
 
+        
         <div id='github-stats-card' data-aos="fade-left" data-aos-delay="600">
             <img className='github_status' src="https://github-readme-stats.vercel.app/api?username=code0403&show_icons=true&theme=tokyonight&hide_border=true&card_width=500" alt="" />
         </div>

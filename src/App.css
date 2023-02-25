@@ -94,6 +94,7 @@ nav.navabr .navbar-nav a.nav-link.navbar-link.active {
   height: 100%;
   position: absolute;
   background-color: #fff;
+  color: #121212;
   left: 0;
   top: 0;
   z-index: -1;
@@ -108,6 +109,7 @@ nav.navabr .navbar-nav a.nav-link.navbar-link.active {
   content: "";
   width:100%;
   height: 100%;
+  color: #121212;
   position: absolute; 
 }
 
@@ -115,6 +117,11 @@ nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
+}
+
+nav.navbar  .navbar-toggle-icon{
+  color: #fff;
+  font-size: 30px;
 }
 
 /* nav.navbar .navbar-toggler-icon {
