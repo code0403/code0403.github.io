@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div id="home"  className="nav-link home">
+    <div id="home">
       <div id="intro_text_container">
             <p id="intro_heading"> Hi! <span> I am,</span></p>
             <p id="user-detail-name">Abhishek Singh</p>

@@ -9,11 +9,13 @@ import { Contact } from './Components/Contact';
 import { Header } from './Components/Header';
 import { GitStatus } from './Components/GitStatus';
 import { NavBar } from './Components/Navbar';
+import { NavBarTwo } from './Components/NavBarTwo';
 
 function App() {
   return (
     <div className="App">
-        <NavBar />
+        {/* <NavBar /> */}
+        <NavBarTwo />
         <Header />
         <AboutMe />
         <Skillls />

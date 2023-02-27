@@ -25,7 +25,7 @@ const GitStatus = () => {
         </div>
 
         <div  data-aos="fade-right" data-aos-delay="700">
-            <img  id="github-top-langs" className='github_status' src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&theme=tokyonight&card_width=500&hide_border=true" alt="" />
+            <img  id="github-top-langs" className='github_status' src="https://github-readme-stats.vercel.app/api/top-langs/?username=code0403&theme=tokyonight&card_width=500&hide_border=true" alt="" />
         </div>
 
         
