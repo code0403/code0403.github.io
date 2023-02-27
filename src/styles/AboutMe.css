@@ -37,7 +37,7 @@
     padding: 50px;
 }
 
-#Github_btn, #resume-button-2{
+#Github_btn, #resume_btn{
     font-weight: 500;
     color: #ffff;
     border: 1px solid #fff;
@@ -57,7 +57,7 @@
     background-color: transparent;
 }
 
-#resume-button-2 a{
+#resume_btn a{
     text-decoration: none;
     font-weight: 500;
     color: #ffff;

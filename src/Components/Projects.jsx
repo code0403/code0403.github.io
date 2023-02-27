@@ -19,10 +19,10 @@ const Projects = () => {
   },[]);
 
   return (
-    <div id='projects' className='nav-link projects'>
+    <div id='projects'>
     <p id="project_heading">Projects</p>
 
-    <div id='project_1' data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="3000">
+    <div id='project_1' className='project-card' data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="3000">
        <div className='project_image'>
         <img className='project_pic' src={Intern_Theory} alt="Intern Theory" />
        </div>
@@ -37,7 +37,7 @@ const Projects = () => {
     </div>
 
 
-    <div id='project_2' data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="3000">
+    <div id='project_2' className='project-card' data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="3000">
        <div className='project_image'>
         <img className='project_pic' src={Mars_Pharmacy} alt="Mars Pharmacy" />
        </div>
@@ -52,7 +52,7 @@ const Projects = () => {
     </div>
 
 
-    <div id='project_3' data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="3000">
+    <div id='project_3' className='project-card' data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="3000">
        <div className='project_image'>
         <img className='project_pic' src={Voyage} alt="Voyage" />
        </div>
@@ -67,7 +67,7 @@ const Projects = () => {
     </div>
 
 
-    <div id='project_4' data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="3000">
+    <div id='project_4' className='project-card' data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="3000">
        <div className='project_image'>
         <img className='project_pic' src={Shoppers_Mall} alt="Shoppers_Mall" />
        </div>

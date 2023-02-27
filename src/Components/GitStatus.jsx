@@ -15,17 +15,17 @@ const GitStatus = () => {
 
         <p className='gitStat_heading'>GitHub Status</p>
 
-        <div id='github-streak-stats' data-aos="fade-right" data-aos-delay="500" data-aos-offset="200" data-aos-once="false">
-            <img className='github_status' src="https://github-readme-streak-stats.herokuapp.com?user=code0403&theme=tokyonight&border_radius=5&type=png&hide_border=true&card_width=600" alt="" />
+        <div  data-aos="fade-right" data-aos-delay="500" data-aos-offset="200" data-aos-once="false">
+            <img id='github-streak-stats' className='github_status' src="https://github-readme-streak-stats.herokuapp.com?user=code0403&theme=tokyonight&border_radius=5&type=png&hide_border=true&card_width=600" alt="" />
         </div>
 
         
-        <div id='github-stats-card' data-aos="fade-left" data-aos-delay="600">
-            <img className='github_status' src="https://github-readme-stats.vercel.app/api?username=code0403&show_icons=true&theme=tokyonight&hide_border=true&card_width=500" alt="" />
+        <div  data-aos="fade-left" data-aos-delay="600">
+            <img id='github-stats-card' className='github_status' src="https://github-readme-stats.vercel.app/api?username=code0403&show_icons=true&theme=tokyonight&hide_border=true&card_width=500" alt="" />
         </div>
 
-        <div id='github-top-langs' data-aos="fade-right" data-aos-delay="700">
-            <img className='github_status' src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&theme=tokyonight&card_width=500&hide_border=true" alt="" />
+        <div  data-aos="fade-right" data-aos-delay="700">
+            <img  id="github-top-langs" className='github_status' src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&theme=tokyonight&card_width=500&hide_border=true" alt="" />
         </div>
 
         

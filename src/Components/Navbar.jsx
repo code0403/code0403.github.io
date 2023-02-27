@@ -57,7 +57,7 @@ const NavBar = () => {
         </Navbar.Toggle>
 
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" id="nav-menu">
+          <Nav className="me-auto">
             <Nav.Link  href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")} >Home</Nav.Link>
             <Nav.Link  href="#about" className={activeLink === "about" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("about")}>About Me</Nav.Link>
             <Nav.Link  href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")} >Skills</Nav.Link>

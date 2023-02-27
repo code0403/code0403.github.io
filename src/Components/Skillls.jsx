@@ -29,24 +29,24 @@ const Skillls = () => {
   }, [])
 
   return (
-    <div id="skills" className='nav-link skills'>
+    <div id="skills">
       <h2 id='skills_heading'> Skills </h2>
 
       <div id="skills_container" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-sine" >
-        <div className='Skill_item'>   <FaHtml5 className="skills-card-img" /> <p className="skills-card-name">HTML5</p> </div>
-        <div className='Skill_item'> <FaCss3Alt className="skills-card-img" /> <p className="skills-card-name">CSS3</p> </div>
-        <div className='Skill_item'> <SiJavascript className="skills-card-img" /><p className="skills-card-name">JavaScript</p> </div>
-        <div className='Skill_item'> <SiTypescript className="skills-card-img" /><p className="skills-card-name">TypeScript</p> </div>
-        <div className='Skill_item'> <FaReact className="skills-card-img" /><p className="skills-card-name">React</p> </div>
-        <div className='Skill_item'> <SiRedux className="skills-card-img" /><p className="skills-card-name">Redux</p> </div>
-        <div className='Skill_item'> <TbBrandNextjs className="skills-card-img" /><p className="skills-card-name">Next.JS</p> </div>
-        <div className='Skill_item'> <SiChakraui className="skills-card-img" /><p className="skills-card-name">Chakra UI</p> </div>
-        <div className='Skill_item'> <FaNodeJs className="skills-card-img" /><p className="skills-card-name">Node JS</p> </div>
-        <div className='Skill_item'> <SiMongodb className="skills-card-img" /><p className="skills-card-name">Mongo Db</p> </div>
-        <div className='Skill_item'> <SiExpress className="skills-card-img" /><p className="skills-card-name">Express JS</p> </div>
-        <div className='Skill_item'> <FaGitAlt className="skills-card-img" /><p className="skills-card-name">Git</p> </div>
-        <div className='Skill_item'> <VscGithub className="skills-card-img" /><p className="skills-card-name">GitHub</p> </div>
-        <div className='Skill_item'> <SiVisualstudiocode className="skills-card-img" /><p className="skills-card-name">VS Code</p> </div> 
+        <div className='skills_card'>   <FaHtml5 className="skills-card-img" /> <p className="skills-card-name">HTML5</p> </div>
+        <div className='skills_card'> <FaCss3Alt className="skills-card-img" /> <p className="skills-card-name">CSS3</p> </div>
+        <div className='skills_card'> <SiJavascript className="skills-card-img" /><p className="skills-card-name">JavaScript</p> </div>
+        <div className='skills_card'> <SiTypescript className="skills-card-img" /><p className="skills-card-name">TypeScript</p> </div>
+        <div className='skills_card'> <FaReact className="skills-card-img" /><p className="skills-card-name">React</p> </div>
+        <div className='skills_card'> <SiRedux className="skills-card-img" /><p className="skills-card-name">Redux</p> </div>
+        <div className='skills_card'> <TbBrandNextjs className="skills-card-img" /><p className="skills-card-name">Next.JS</p> </div>
+        <div className='skills_card'> <SiChakraui className="skills-card-img" /><p className="skills-card-name">Chakra UI</p> </div>
+        <div className='skills_card'> <FaNodeJs className="skills-card-img" /><p className="skills-card-name">Node JS</p> </div>
+        <div className='skills_card'> <SiMongodb className="skills-card-img" /><p className="skills-card-name">Mongo Db</p> </div>
+        <div className='skills_card'> <SiExpress className="skills-card-img" /><p className="skills-card-name">Express JS</p> </div>
+        <div className='skills_card'> <FaGitAlt className="skills-card-img" /><p className="skills-card-name">Git</p> </div>
+        <div className='skills_card'> <VscGithub className="skills-card-img" /><p className="skills-card-name">GitHub</p> </div>
+        <div className='skills_card'> <SiVisualstudiocode className="skills-card-img" /><p className="skills-card-name">VS Code</p> </div> 
       </div>
     </div>
   )
