@@ -22,7 +22,7 @@ const AboutMe = () => {
 
       <div id='About_links'>
       <button id="Github_btn" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="3000"><a href="https://github.com/code0403" target={"_blank"} rel="noreferrer"> GitHub <FaGithub /> </a></button>
-      <button id="resume-button-2" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="3000"><a  id="resume-link-2" className="nav-link resume" href={Abhishek_Singh_Resume}   onClick={() => window.open(Abhishek_Singh_Resume)} download={Abhishek_Singh_Resume}> Resume <FiDownload /> </a></button>
+      <button id="resume-button-2" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="3000"><a  id="resume-link-2" className="nav-link resume" href={Abhishek_Singh_Resume}   onClick={() => window.open(Abhishek_Singh_Resume)} download={"Abhishek-Singh-Resume.pdf"}> Resume <FiDownload /> </a></button>
       </div>
     </div>
   )
