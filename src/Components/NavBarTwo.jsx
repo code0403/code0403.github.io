@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import { useState } from 'react';
 import "../styles/NavBarTwo.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -6,7 +7,7 @@ import Abhishek_Singh_Resume from "../assets/files/Abhishek_Singh_Resume.pdf";
 
 const NavBarTwo = () => {
    
-    const [toogleMenu, setToggleMenu] = useState("nav-link-conatiner ul");
+    // const [toogleMenu, setToggleMenu] = useState("nav-link-conatiner ul");
     
     
 
