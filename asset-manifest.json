@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.08477c13.css",
-    "main.js": "/static/js/main.fc9b5a83.js",
+    "main.js": "/static/js/main.e76847e1.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Voyage.png": "/static/media/Voyage.464719ac17b85285e1bd.png",
     "static/media/Intern_Theory.png": "/static/media/Intern_Theory.7424e366b5873219979f.png",
@@ -11,11 +11,11 @@
     "static/media/pic.jpg": "/static/media/pic.a8555e299dfb783ce691.jpg",
     "index.html": "/index.html",
     "main.08477c13.css.map": "/static/css/main.08477c13.css.map",
-    "main.fc9b5a83.js.map": "/static/js/main.fc9b5a83.js.map",
+    "main.e76847e1.js.map": "/static/js/main.e76847e1.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08477c13.css",
-    "static/js/main.fc9b5a83.js"
+    "static/js/main.e76847e1.js"
   ]
 }
