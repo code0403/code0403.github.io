@@ -27,7 +27,7 @@ const NavBarTwo = () => {
             <li> <a className='nav-link skills' href='#skills'>SKILLS</a>  </li>
             <li><a className='nav-link projects' href='#projects'>PROJECTS</a>  </li>
             <li> <a className='nav-link contact' href='#contact'>CONTACTS</a> </li>  
-            <li id="resume-button-1"> <a className='nav-link resume' id='resume-link-1' href={Abhishek_Singh_Resume}   onClick={() => window.open(Abhishek_Singh_Resume)} download={"Abhishek-Singh-Resume.pdf"}>RESUME</a> </li>
+            <li id="resume-button-1"> <a className='nav-link resume' id='resume-link-1' href={Abhishek_Singh_Resume}   onClick={() => window.open(Abhishek_Singh_Resume)} download={"Abhishek_Singh_Resume.pdf"}>RESUME</a> </li>
             <div> <FontAwesomeIcon icon={ faBars }  id="toggle-icon" /> </div>
          </ul>
        </div>
