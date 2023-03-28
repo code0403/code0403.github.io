@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import "../styles/Contact.css";
 import { IoCallOutline } from "react-icons/io5";
 import { BsLinkedin } from "react-icons/bs";
@@ -8,10 +8,18 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Contact = () => {
+
+  const [emaildetails ,setEmailDetails] = useState({
+    name : "",
+    email: "",
+    message: ""
+  })
  
   useEffect(() => {
     AOS.init();
   }, [])
+
+  
 
   return (
     <div id='contact'>
@@ -31,11 +39,11 @@ const Contact = () => {
         <div id='contact_message_conatiner' data-aos="fade-right"  data-aos-duration="3000" data-aos-delay="700"  data-aos-easing="linear">
           <p id='contact_message_conatiner_heading'>Message Me</p>
           <div id='message_text_container'>
-            <input type="text"  name="" placeholder='Name'  className='message_text' required />
-            <input type="email" name="" placeholder='Email' className='message_text' required />
+            <input type="text"  name="name" placeholder='Name' value={emaildetails.name} onChange={(e) => setEmailDetails(e.target.value)} className='message_text' required />
+            <input type="email" name="user_email" placeholder='Email' value={emaildetails.email} onChange={(e) => setEmailDetails(e.target.value)} className='message_text' required />
           </div>
-          <textarea  placeholder='Message...' cols={40} rows={5} required />
-          <button className='send_message' onClick={() => {console.log("hello")}}>Send</button>
+          <textarea name='message'  placeholder='Message...' cols={40} rows={5} value={emaildetails.message} onChange={(e) => setEmailDetails(e.target.value)} required />
+          <input type="submit" value="Send" className='send_message' onSubmit={() => console.log("hello")}  />
         </div>
       </div>
     </div>
