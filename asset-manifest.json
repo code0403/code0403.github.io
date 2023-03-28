@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c200626c.css",
-    "main.js": "/static/js/main.4e100fba.js",
+    "main.css": "/static/css/main.1d4ff8f3.css",
+    "main.js": "/static/js/main.249b399d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Voyage.png": "/static/media/Voyage.464719ac17b85285e1bd.png",
     "static/media/Intern_Theory.png": "/static/media/Intern_Theory.7424e366b5873219979f.png",
@@ -10,12 +10,12 @@
     "static/media/Abhishek_Singh_Resume.pdf": "/static/media/Abhishek_Singh_Resume.3a2186679633c63f3d7a.pdf",
     "static/media/pic.jpg": "/static/media/pic.a8555e299dfb783ce691.jpg",
     "index.html": "/index.html",
-    "main.c200626c.css.map": "/static/css/main.c200626c.css.map",
-    "main.4e100fba.js.map": "/static/js/main.4e100fba.js.map",
+    "main.1d4ff8f3.css.map": "/static/css/main.1d4ff8f3.css.map",
+    "main.249b399d.js.map": "/static/js/main.249b399d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c200626c.css",
-    "static/js/main.4e100fba.js"
+    "static/css/main.1d4ff8f3.css",
+    "static/js/main.249b399d.js"
   ]
 }
