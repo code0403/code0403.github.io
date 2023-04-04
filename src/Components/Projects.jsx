@@ -42,7 +42,7 @@ const Projects = () => {
         <img className='project_pic' src={Mars_Pharmacy} alt="Mars Pharmacy" />
        </div>
        <div className='project_info'>
-        <p className='project-title'>Intern Theory</p>
+        <p className='project-title'>MARS Pharmacy</p>
         <p className='project-description'>Pharmeasy is an online pharmacy  drug store which caters for the need of everyone with a wide variety of Products such as Medicines, HealthCare Products along with provide Lab Test Services.</p>
         <p className='project-tech-stack'> <span className='techs'>HTML</span> <span className='techs'>CSS</span> <span className='techs'>JavaScript</span> </p>
         <p className='project-features'> Signup | Login | Logout | Product Display on Carousel | User can add products to cart | Purchase the the product | Admin can control the store by adding removing, and updating products. </p>
@@ -72,7 +72,7 @@ const Projects = () => {
         <img className='project_pic' src={Shoppers_Mall} alt="Shoppers_Mall" />
        </div>
        <div className='project_info'>
-        <p className='project-title'>Shoppers_Mall</p>
+        <p className='project-title'>Shoppers Mall</p>
         <p className='project-description'>Shoppers Mall is one stop destination to shop for various brand. The website is build on react with Chakra UI.</p>
         <p className='project-tech-stack'> <span className='techs'>HTML</span> <span className='techs'>CSS</span> <span className='techs'>JavaScript</span> <span className='techs'>React</span> <span className='techs'>Chakra UI</span> <span className='techs'>Json-Server</span> </p>
         <p className='project-features'> Signup | Login | Product Display Carousel | Coupons Display | Coupons Puschase | Checkout </p>

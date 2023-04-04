@@ -13,7 +13,7 @@ const GitStatus = () => {
   return (
     <div id='status_container'>
 
-        <p className='gitStat_heading'>GitHub Status</p>
+        <p className='gitStat_heading'>GitHub Stats</p>
 
         <div  data-aos="fade-right" data-aos-delay="500" data-aos-offset="200" data-aos-once="false">
             <img id='github-streak-stats' className='github_status' src="https://github-readme-streak-stats.herokuapp.com?user=code0403&theme=tokyonight&border_radius=5&type=png&hide_border=true&card_width=600" alt="" />
